@@ -4,7 +4,7 @@
 </p>
 
 ---
-<details><summary><strong>📊 Дашборд</strong></summary>
+<details><summary><strong>📊 Дашборд (Power BI)</strong></summary>
 
 - Построить витрину данных и интерактивные дашборды в Power BI  
 - Рассчитать ключевые KPI  
