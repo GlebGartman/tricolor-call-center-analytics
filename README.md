@@ -170,15 +170,19 @@ WHERE rnk = 1;
 - Применены оконные функции для поиска последнего события  
 - Подготовлена база для дальнейшей аналитики и BI визуализации
 - 
+
 </details>
+
 ---
 
 
-<details><summary><strong>📦 Результаты проекта</strong></summary>
+<details>
+<summary><strong>📦 Результаты проекта</strong></summary>
 - **Power BI:** `tricolor_dashboard.pbix` — интерактивный дашборд с KPI контакт центра  
 - **SQL:** `tricolor_analysis.sql` — расчеты и аналитические запросы по данным клиентов  
 - **Excel:** `tricolor_forecast.xlsx` — модель прогнозирования подключений  
 - **Презентация:** `tricolor_presentation.pdf` — итоговые выводы и рекомендации 
+
 </details>
 
 ---
