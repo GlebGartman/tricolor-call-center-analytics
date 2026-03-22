@@ -76,7 +76,7 @@
 
 ### 🏗 Создание таблиц
 
-CREATE TABLE active_periods (
+```sqlCREATE TABLE active_periods (
     id_client INT,
     service VARCHAR(50),
     start_date DATE,
@@ -92,7 +92,7 @@ CREATE TABLE data_mart (
     date_to DATE,
     type_of_equipment VARCHAR(50)
 );
-
+```
 ---
 
 ### 📥 Заполнение данных
