@@ -40,6 +40,23 @@
   - лучший по AHT  
   - худший по AHT  
 
+![Динамика времени ожидания и обработки](https://drive.google.com/uc?export=view&id=1da-4gmrPSEUAIw2H8_j2gYtMogX9OeQd)
+
+---
+
+### 📊 Динамика входящих и обработанных обращений
+![Динамика входящих и обработанных обращений](https://drive.google.com/uc?export=view&id=165X7NdhWtcpfMR3hvLBNq8OguWX7jEM8)
+
+---
+
+### 📉 Качество обработки обращений
+![Качество обработки обращений](https://drive.google.com/uc?export=view&id=1AnER-EUoD9JjMVWsuPWucy0fETFiQvOd)
+
+---
+
+### 👥 Значимые тематики и операторы
+![Значимые тематики и операторы](https://drive.google.com/uc?export=view&id=10MWBrlBt_PN-G3jZW_eK13Xq-37OL8of)
+
 </details>
 
 ---
