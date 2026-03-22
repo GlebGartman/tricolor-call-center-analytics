@@ -76,7 +76,8 @@
 
 ### 🏗 Создание таблиц
 
-```sqlCREATE TABLE active_periods (
+```sql
+    CREATE TABLE active_periods (
     id_client INT,
     service VARCHAR(50),
     start_date DATE,
@@ -97,6 +98,7 @@ CREATE TABLE data_mart (
 
 ### 📥 Заполнение данных
 
+```sql
 INSERT INTO active_periods (id_client, service, start_date, end_date) VALUES
 (1, 'Internet', '2022-01-10', '2022-07-15'),
 (1, 'TV', '2022-08-01', '2022-12-31'),
@@ -116,12 +118,12 @@ INSERT INTO data_mart (id_client, current_service, status, region, date_from, da
 (4, 'Mobile', false, 'SPB', '2022-05-01', '2022-07-01', 'Smartphone'),
 (5, 'Internet', true, 'Kazan', '2022-08-01', '2022-11-15', 'Router'),
 (6, 'TV', false, 'Moscow', '2022-01-01', '2022-03-31', 'Set-top box');
-
+```
 ---
 
 ### 📊 Решение задачи 1  
-Клиенты по типу оборудования (3 квартал 2022)
-
+**Клиенты по типу оборудования (3 квартал 2022)**
+```sql
 SELECT
     type_of_equipment,
     COUNT(DISTINCT ap.id_client) AS clients_cnt
@@ -130,12 +132,12 @@ JOIN data_mart AS dm ON ap.id_client = dm.id_client
 WHERE end_date BETWEEN '2022-07-01' AND '2022-09-30'
 GROUP BY type_of_equipment
 ORDER BY clients_cnt DESC;
-
+```
 ---
 
 ### 📊 Решение задачи 2  
-Последняя неактивная услуга клиента
-
+**Последняя неактивная услуга клиента**
+```sql
 WITH finish AS (
     SELECT
         id_client,
@@ -151,7 +153,7 @@ SELECT
     end_date
 FROM finish
 WHERE rnk = 1;
-
+```
 ---
 
 ### 📈 Результаты и подход
