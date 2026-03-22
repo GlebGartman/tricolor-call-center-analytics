@@ -178,6 +178,7 @@ WHERE rnk = 1;
 <details>
   
 <summary><strong>📦 Результаты проекта</strong></summary>
+
 - **Power BI:** `tricolor_dashboard.pbix` — интерактивный дашборд с KPI контакт центра  
 - **SQL:** `tricolor_analysis.sql` — расчеты и аналитические запросы по данным клиентов  
 - **Excel:** `tricolor_forecast.xlsx` — модель прогнозирования подключений  
